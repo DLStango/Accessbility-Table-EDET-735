@@ -210,6 +210,57 @@ app.get('/showPost/:id',
 
 app.post('/saveForumComment',forumPostController.saveForumComment)
 
+  res.render('tNguyen',{title:"Trish Nguyen"});
+});
+
+app.get('/seeStories',commentController.getAllComments );
+
+app.get('/Weather', function(req, res, next) {
+  res.render('Weather',{title:"Boston Weather"});
+});
+
+app.get('/couponform', function(req, res, next) {
+  res.render('couponform',{title:"Coupon Form"});
+});
+
+app.get('/report', function(req, res, next) {
+  res.render('report',{title:"Report"});
+});
+
+app.get('/rStanghellini', function(req, res, next) {
+  res.render('rStanghellini',{title:"Rina Stanghellini"});
+});
+
+app.get('/cLai', function(req, res, next) {
+  res.render('cLai',{title:"Crystal Lai"});
+});
+
+app.get('/nEphraim', function(req, res, next) {
+  res.render('nEphraim',{title:"Naomi Ephraim"});
+});
+app.get('/bmidemo', (req, res) => {
+  res.render('bmidemo',{title:"BMI Demo"});
+});
+
+app.get('/NearestFacilities', function(req, res, next) {
+  res.render('NearestFacilities',{title:"NearestFacilities"});
+});
+
+app.get('/Donates', function(req, res, next) {
+  res.render('Donates',{title:"Donates"});
+});
+
+app.get('/thanks', function(req, res, next) {
+  res.render('thanks',{title:"Donates"});
+});
+
+app.get('/VWork', function(req, res, next) {
+  res.render('VWork',{title:"HYELP VWork"});
+});
+app.get('/passBill', function(req, res, next) {
+  res.render('passBill',{title:"Help pass legislation"});
+});
+
 // myform demo ...
 
 app.get('/myform', function(req, res, next) {
