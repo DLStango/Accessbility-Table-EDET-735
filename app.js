@@ -194,7 +194,7 @@ app.use(function(req,res,next){
 });
 
 app.get('/', function(req, res, next) {
-  res.render('index',{title:"HYELP Mainpage"});
+  res.render('index',{title:"Barriers to Learning-Universal Design for Learnging-with Technology"});
 });
 
 
@@ -209,75 +209,6 @@ app.get('/showPost/:id',
         forumPostController.showOnePost)
 
 app.post('/saveForumComment',forumPostController.saveForumComment)
-
-
-app.get('/shareStory', function(req, res, next) {
-  res.render('shareStory',{title:"Share your story"});
-});
-
-app.get('/coupons', function(req, res, next) {
-  res.render('coupons',{title:"Coupons"});
-});
-
-app.get('/sSundayTrombone', function(req, res, next) {
-  res.render('sSundayTrombone',{title:"Samantha Sunday Trombone"});
-});
-
-app.get('/eHelms', function(req, res, next) {
-  res.render('eHelms',{title:"Evelyn Helms"});
-});
-
-app.get('/tNguyen', function(req, res, next) {
-  res.render('tNguyen',{title:"Trish Nguyen"});
-});
-
-app.get('/seeStories',commentController.getAllComments );
-
-app.get('/Weather', function(req, res, next) {
-  res.render('Weather',{title:"Boston Weather"});
-});
-
-app.get('/couponform', function(req, res, next) {
-  res.render('couponform',{title:"Coupon Form"});
-});
-
-app.get('/report', function(req, res, next) {
-  res.render('report',{title:"Report"});
-});
-
-app.get('/rStanghellini', function(req, res, next) {
-  res.render('rStanghellini',{title:"Rina Stanghellini"});
-});
-
-app.get('/cLai', function(req, res, next) {
-  res.render('cLai',{title:"Crystal Lai"});
-});
-
-app.get('/nEphraim', function(req, res, next) {
-  res.render('nEphraim',{title:"Naomi Ephraim"});
-});
-app.get('/bmidemo', (req, res) => {
-  res.render('bmidemo',{title:"BMI Demo"});
-});
-
-app.get('/NearestFacilities', function(req, res, next) {
-  res.render('NearestFacilities',{title:"NearestFacilities"});
-});
-
-app.get('/Donates', function(req, res, next) {
-  res.render('Donates',{title:"Donates"});
-});
-
-app.get('/thanks', function(req, res, next) {
-  res.render('thanks',{title:"Donates"});
-});
-
-app.get('/VWork', function(req, res, next) {
-  res.render('VWork',{title:"HYELP VWork"});
-});
-app.get('/passBill', function(req, res, next) {
-  res.render('passBill',{title:"Help pass legislation"});
-});
 
 // myform demo ...
 
