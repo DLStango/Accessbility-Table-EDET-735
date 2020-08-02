@@ -1,0 +1,154 @@
+body {
+  padding: 50px;
+  font: 16px "Arial", Helvetica, Arial, sans-serif;
+  background-color:#f0eda5;
+}
+
+#map_canvas{
+	border:thin solid blue;
+	height:400px;
+}
+
+
+#menu{
+    background-color: #f2f2f2;
+}
+
+
+a {
+  color: #7bb061;
+}
+
+
+a:hover{
+  color: #5d8549;
+}
+
+.bigfont {
+  font: 56px "AppleGothic";
+
+}
+
+.bodyfont {
+  font: 18px "AppleGothic";
+
+}
+
+h1 {
+font: 48px "AppleGothic";
+text-align: center;
+}
+
+.headingfont{
+
+
+}
+.centerShareStory {
+text-align: center;
+
+}
+
+.orderedlist {
+
+ list-style-type: square;
+
+}
+
+.smallbodyfont{
+  font:12px "AppleGothic";
+}
+
+
+#navbarDropdownZZZ{
+  position: relative;
+  left: 600px;
+}
+
+.navbar-brand{
+  /*float: right;*/
+  /*padding: 0px 100px 10px 200px;*/
+
+  position: relative;
+  left: 400px;}
+
+  .form-submit-button {
+
+background: #7AB062;
+
+color: white;
+
+border-color: #7AB062;
+
+height: 50px;
+
+}
+
+#bgforheader {
+  border-color: Black;
+
+  height: 50px;
+      background-color: #efede9;
+
+
+}
+
+#bgforheader2{
+text-shadow:none;
+
+  background-color: #efeae9;
+}
+
+#bgforstories {
+
+  background-color: #efede9;
+}
+
+#bgforstories2 {
+width: 100px;
+
+  background-color: #efeae9;
+}
+
+.footerfont{
+  display: inline;
+  font: 18px "AppleGothic";
+padding-left: 10px;
+padding-right: 10px;
+padding: 20px;
+  position: absolute;
+}
+.cvv-input input {
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+
+.cvv-details {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.cvv-details p {
+    margin-top: 6px;
+}
+
+.credit-card {
+    width: 360px;
+    height: 400px;
+    margin: 60px auto 0;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+
+.floatright
+{
+float: right;
+
+}
+
+/**tbody>tr>:nth-child(1){
+  border-style: solid;
+  border-width: 5px;
+}**/
